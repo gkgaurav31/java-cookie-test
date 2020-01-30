@@ -21,9 +21,9 @@ public class CookieController {
 	    // create a cookie
 	    Cookie cookie = new Cookie("username", username);
 	    //add cookie to response
-	    response.addCookie(cookie);
 	    cookie.setSecure(true);
-	    return "Username is changed to " + username + "!";
+	    response.addCookie(cookie);
+	    return "Username is changed to " + username + "!!!";
 	}
 	
 }
